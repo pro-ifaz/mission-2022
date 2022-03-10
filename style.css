@@ -1,0 +1,37 @@
+body{
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+.flexible-section{
+    display: flex;
+    padding-top: 5%;
+}
+.top-banner h1{
+    font-family: 'Yeseva One', cursive;
+    font-size: 60px;
+    font-weight: 400;
+
+}
+#headline{
+    border-left: 5px solid #FF5959;
+    padding-left: 2%;
+}
+
+.orange{
+    color: #FFAD5A;
+}
+.button{
+    text-decoration: none;
+    color: white;
+    background: #FF5959;
+    padding: 10px 30px;
+    border-radius: 5px;
+}
+.half-width{
+    width: 50%;
+    padding-left: 5%;
+}
+.half-width img{
+    width: 80%;
+    top: -80px;
+}
