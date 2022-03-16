@@ -1,22 +1,25 @@
 body{
-    margin: 0;
     font-family: 'Poppins', sans-serif;
+    background: #fbfbfb;
+    margin: 0;
+}
+h1{
+    font-size: 50px;
 }
 .flexible-section{
     display: flex;
     padding-top: 5%;
+    padding-bottom: 5%;
 }
 .top-banner h1{
     font-family: 'Yeseva One', cursive;
+    margin-bottom: 0;
+    margin-top: 0;
     font-size: 60px;
     font-weight: 400;
-
-}
-#headline{
     border-left: 5px solid #FF5959;
     padding-left: 2%;
 }
-
 .orange{
     color: #FFAD5A;
 }
@@ -33,5 +36,103 @@ body{
 }
 .half-width img{
     width: 80%;
-    top: -80px;
+}
+.mission-part img{
+    width: 80%;
+}
+.mission-part h3{
+    margin-top: 0;
+    font-size: 20px;
+}
+.one-third-width{
+    width: 30%;
+    padding-left: 2%;
+    padding-right: 2%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+.mission{
+    background: rgba(79, 157, 166, 0.1);
+    border-radius: 26px;
+
+}
+.vision{
+    background: rgba(255, 89, 89, 0.1) ;
+    border-radius: 26px;
+}.goal{
+    background: #FFF4D6;
+    border-radius: 26px;
+}
+.coding-part{
+    background-image: url(images/shapes/shape-1.png);
+    background-repeat: no-repeat;
+    background-size: 150px;
+    background-position:left;
+}
+.coding-part img{
+    width: 90%;
+}
+.coding-part h2{
+    font-size: 30px;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+.cp1{
+width: 30%;
+padding-left: 10%;
+}
+.cp2{
+    width: 70%;
+    padding-left: 5%;
+    
+}
+.cm1{
+padding-left: 10%;
+}
+.cm2{
+    padding-right: 5%;
+}
+.global img{
+width: 70%;
+
+}
+.global{
+background-image: url(images/shapes/shape-1.png);
+background-position: right;
+background-repeat: no-repeat;
+background-size: 150px;
+}
+.global h2{
+    font-size: 30px;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+.app{
+    padding-left: 10%;
+}
+.app img{
+    width: 60%;
+    background-image: url(images/shapes/shape-3.png),url(images/shapes/shape-3.png), url(images/shapes/shape-3.png);
+    background-size: 150px, 60px, 60px;
+    background-repeat: no-repeat;
+    background-position: left top, left bottom, right center;
+}
+.app-section h1{
+    margin-bottom: 0;
+    margin-top: 0;
+}
+.app-info{
+    margin-top: 5%;
+    margin-right: 10%;
+}
+.footer-section h2{
+    font-family: 'Lobster', cursive;
+}
+.footer-section{
+    background: black;
+    color: white;
+    height: 150px;
+}
+.footer-section span{
+    color: #FF5959;
 }
